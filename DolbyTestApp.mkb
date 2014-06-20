@@ -1,0 +1,23 @@
+files
+{
+	[Source]
+	(source)
+	button.cpp
+	button.h
+	main.cpp
+	sound.cpp
+	sound.h
+}
+
+subprojects
+{
+	iwgeom
+	iwgx
+	s3eDolbyAudio
+}
+
+deployments
+{
+	name="DolbyTestApp"
+	caption="Dolby Test App"
+}
